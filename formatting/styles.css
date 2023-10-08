@@ -13,7 +13,6 @@ a {
     text-decoration: none;
 }
 
-
 a:hover {color:grey;}
 
 /* small */
@@ -73,4 +72,8 @@ a:hover {color:grey;}
     .navmain {
         padding-right: 20%;
     }
+    .icon {
+        display: block;
+        margin-right: 10%;
+      }
 }
