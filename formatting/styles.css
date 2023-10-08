@@ -2,8 +2,6 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-
-
 body {
     background-color: #0E303C;
 }
@@ -13,14 +11,12 @@ a {
     text-decoration: none;
 }
 
-a:hover {color:grey;}
-
 /* small */
 @media screen and (max-width : 1400px) {
     .topstyle {
-        background-color: red;
+        background-color: white;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         column-gap: 10px;
         justify-content: right;
         margin: 0;
@@ -28,23 +24,35 @@ a:hover {color:grey;}
         padding: 0;
         align-items: center;
     }
-    .navmain {
+
+    .display {
         display: none;
     }
+
     .icon {
-        background: black;
-        display: block;
+        background: white;
         margin-right: 30%;
-      }
-      a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-      }
-      .toplogo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .toplogo {
         margin-right: 30%;
+    }
+
+    .menu {
+        position: absolute;
+        right: 20%;
+        top: 15%;
+    }
+    .homenav td {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        white-space: nowrap;
+    }
+    td:hover {
+        background-color: rgb(195, 194, 194);
     }
 }
 
@@ -61,19 +69,24 @@ a:hover {color:grey;}
         padding: 0;
         align-items: center;
     }
+
     .toplogo {
         margin-right: 15%;
     }
+
     .homenav td {
         padding-left: 30px;
         white-space: nowrap;
         margin-right: 20%;
     }
+
     .navmain {
         padding-right: 20%;
     }
-    .icon {
-        display: block;
-        margin-right: 10%;
-      }
+
+    .menu {
+        display: none;
+    }
+
+    a:hover {color:grey;}
 }
