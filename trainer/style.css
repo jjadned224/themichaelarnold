@@ -88,12 +88,6 @@ footer {
     text-align: center;
 }
 
-.textdiv3 {
-    margin-left: 3%;
-    margin-right: 24%;
-    text-align: left;
-}
-
 .textdiv2 h1 {
     font-size: 36px;
 }
@@ -125,32 +119,37 @@ footer {
     font-size: 20px
 }
 
-button {
-    background-color: #CD3532;
-    color:white;
-    font-size: large;
-    font-weight: bolder;
-    text-align: center;
-    align-items: center;
-    border: #0E303C;
-    border-radius: 10px;
-    margin-top: 5%;
-}
+
 
 .connect {
+    background-color: #CD3532;
+        color:white;
+        font-size: large;
+        font-weight: bolder;
+        text-align: center;
+        align-items: center;
+        border: #0E303C;
+        border-radius: 10px;
+        margin-top: 5%;
     width: 50%;
     height: 60px;
 }
 
 .D8 {
+        background-color: #CD3532;
+        color:white;
+        font-size: large;
+        font-weight: bolder;
+        text-align: center;
+        align-items: center;
+        border: #0E303C;
+        border-radius: 10px;
+        margin-top: 5%;
     width: 120%;
     height: 60px;
 }
 
-.Workshop {
-    width: 160%;
-    height: 60px;
-}
+
 
 button:hover {
     background-color: #EC3D3A;
@@ -230,6 +229,38 @@ button:hover {
     td:hover {
         background-color: rgb(195, 194, 194);
     }
+    .Workshop {
+        background-color: #CD3532;
+            color:white;
+            font-size: large;
+            font-weight: bolder;
+            text-align: center;
+            align-items: center;
+            border: #0E303C;
+            border-radius: 10px;
+            margin-top: 5%;
+            text-wrap: wrap;
+        width: 100%;
+        height: 60px;
+    }
+    .textdiv3 {
+        margin-left: 3%;
+        margin-right: 15%;
+        text-align: left;
+    }
+    .D10 {
+        background-color: #CD3532;
+        color:white;
+        font-size: large;
+        font-weight: bolder;
+        text-align: center;
+        align-items: center;
+        border: #0E303C;
+        border-radius: 10px;
+        margin-top: 5%;
+    width: 80%;
+    height: 60px;
+}
 }
 
 /* large */
@@ -266,4 +297,36 @@ button:hover {
     }
 
     a:hover {color:grey;}
+
+    .Workshop {
+        background-color: #CD3532;
+            color:white;
+            font-size: large;
+            font-weight: bolder;
+            text-align: center;
+            align-items: center;
+            border: #0E303C;
+            border-radius: 10px;
+            margin-top: 5%;
+        width: 160%;
+        height: 60px;
+    }
+    .textdiv3 {
+        margin-left: 3%;
+        margin-right: 24%;
+        text-align: left;
+    }
+    .D10 {
+        background-color: #CD3532;
+        color:white;
+        font-size: large;
+        font-weight: bolder;
+        text-align: center;
+        align-items: center;
+        border: #0E303C;
+        border-radius: 10px;
+        margin-top: 5%;
+    width: 120%;
+    height: 60px;
+}
 }
