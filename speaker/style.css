@@ -196,7 +196,7 @@ li {
         width: 100%;
         height: 60px;
     }
-    img {
+    .imgs img {
         height: 60%;
         width: 60%;
     }
@@ -256,7 +256,7 @@ li {
         align-items: center;
         justify-content: center;
     }
-    img {
+    .imgs img {
         height: 90%;
         width: 90%;
     }
