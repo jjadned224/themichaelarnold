@@ -1,11 +1,27 @@
 html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
-    margin: 0;
 }
 
 body {
-    background-color: #0E303C;
+    background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162821082919743619/coach.jpg?ex=653d5486&is=652adf86&hm=5fcf2e5e2dea923d2a34f8b5a3e6912b385ac18366279c7964115284149c2482&);
+    background-attachment: fixed;
+    background-position: bottom 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
     margin: 0;
+}
+
+.bodyflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-right: 30%;
+    margin-left: 15%;
 }
 
 a {
@@ -43,6 +59,41 @@ footer {
 .navbot a {
     margin-right: 10%;
     color:white;
+}
+
+.darkblu {
+    background-color: #0E303C;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+
+
+.container {
+    margin-left: 20%; 
+    margin-right: 20%;
+}
+
+button {
+    background-color: #CD3532;
+    color:white;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    border: #0E303C;
+    border-radius: 10px;
+    width: 80%;
+    height: 60px;
+    margin-top: 5%;
+}
+
+button:hover {
+    background-color: #EC3D3A;
 }
 
 /* small */

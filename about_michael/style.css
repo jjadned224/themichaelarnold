@@ -1,16 +1,31 @@
 html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
-    margin: 0;
 }
 
 body {
-    background-color: #0E303C;
+    background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162850723546013837/aboutmichael.jpg?ex=653d7021&is=652afb21&hm=a56471650e228c6618d8fa93de10f9894b3dc0ffe980ebca27e709d9e47b1e73&);
+    background-attachment: fixed;
+    background-position: bottom 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
     margin: 0;
 }
 
 a {
     color:black;
     text-decoration: none;
+}
+
+.bodyflex {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-right: 60%;
+    margin-left: 15%;
 }
 
 footer {
@@ -43,6 +58,23 @@ footer {
 .navbot a {
     margin-right: 10%;
     color:white;
+}
+
+.darkblu {
+    background-color: #0E303C;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.darkblu p {
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.4;
+    font-size: 20px;
 }
 
 /* small */

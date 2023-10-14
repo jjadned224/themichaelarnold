@@ -3,29 +3,24 @@ html {
 }
 
 body {
-    background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162850897215365200/Speaker.jpg?ex=653d704a&is=652afb4a&hm=6f23fad74a7855a88603fcc9c41c3ad13737a16498eda342bd85860af3572c3a&);
-    background-attachment: fixed;
-    background-position: bottom 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: auto;
+    background-color: #EEEEEE;
     margin: 0;
 }
 
+.homenav a {
+    color: black;
+    text-decoration: none;
+}
 
 .bodyflex {
     display: flex;
     flex-direction: column;
-    color: white;
-    padding-top: 15%;
-    padding-bottom: 15%;
-    margin-right: 30%;
-    margin-left: 15%;
-}
-a {
-    color:black;
-    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 
 footer {
@@ -39,6 +34,11 @@ footer {
     max-width: 100%;
     padding-bottom: 3%;
 }
+
+footer a {
+    text-decoration: none;
+}
+
 .footcontent {
     margin-left: 10%;
     align-items: center;
@@ -60,100 +60,19 @@ footer {
     color:white;
 }
 
-button {
-    background-color: #CD3532;
-    color:white;
+.text {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.text a {
+    color: #D75E5B;
+    text-decoration: none;
+}
+
+.text p {
+    color: #55636F;
     font-size: large;
-    font-weight: bolder;
-    text-align: center;
-    align-items: center;
-    border: #0E303C;
-    border-radius: 10px;
-    margin-top: 5%;
-}
-
-.book {
-    position: relative;
-    right: 150%;
-    width: 300%;
-    height: 60px;
-}
-
-button:hover {
-    background-color: #EC3D3A;
-}
-
-.darkblu {
-    background-color: #0E303C;
-    color:white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 5%;
-    padding-bottom: 10%;
-}
-
-li {
-    line-height: 1.6;
-    font-size: 20px;
-}
-
-.container {
-    margin-left: 12%; 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.imgs {
-    padding-top: 5%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.lightred {
-    background-color: #CD3532;
-    color: white;
-    text-align: center;
-    padding: 5%;
-}
-.lightred h1 {
-    font-size: 36px;
-}
-
-.lightred h3 {
-    font-weight: normal;
-}
-
-.lightred iframe {
-    padding-top: 3%;
-}
-
-.darkscale {
-    background-color: #B8BDC1;
-}
-
-.container2 {
-    margin-left: 25%; 
-    margin-right: 25%; 
-    padding-top: 5%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 5%;
-    text-align: center;
-}
-
-.container2 h1 {
-    font-size: 26px
-}
-
-.container2 p {
-    color: #595a5c;
-    font-size: 20px
 }
 
 /* small */
