@@ -92,6 +92,11 @@ button:hover {
     padding-top: 7%;
 }
 
+.youtubeflex {
+    display: flex;
+    justify-content: center;
+}
+
 .lightgrey {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -146,6 +151,11 @@ button:hover {
     background-size: cover;
     position: relative;
     overflow: auto;
+}
+
+.connectflex {
+    display: flex;
+    justify-content: center;
 }
 
 .connectbox p {
@@ -373,11 +383,12 @@ button:hover {
         text-align: center;
         align-items: center;
         background-color: white;
-        width: 550px;
-        margin-left: 27.5%;
+        width: fit-content;
         border-radius:  25px;
         margin-top: 5%;
         margin-bottom: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 }
 
@@ -470,10 +481,12 @@ button:hover {
         text-align: center;
         align-items: center;
         background-color: white;
-        width: 550px;
-        margin-left: 37.5%;
+        width: fit-content;
         border-radius:  25px;
         margin-top: 5%;
         margin-bottom: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        justify-content: center;
     }
 }
