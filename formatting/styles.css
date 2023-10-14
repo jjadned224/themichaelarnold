@@ -20,7 +20,7 @@ footer {
     bottom: 0;
     width: 100%;
     max-width: 100%;
-    margin-top: 8%;
+
     padding-bottom: 3%;
 }
 .footcontent {
@@ -71,6 +71,7 @@ p {
     border-radius: 10px;
     width: 250px;
     height: 60px;
+    margin-top: 5%;
 }
 
 button:hover {
@@ -143,7 +144,131 @@ button:hover {
 }
 
 .connectprompt {
-    background-image: url();
+    background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162763942863585352/connect.jpg?ex=653d1f4f&is=652aaa4f&hm=0bc454658ce01798f8af744d3c08d8cd33339e29a09164765c3057c7394714dd&);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+}
+
+.connectbox p {
+    color: black;
+}
+
+.input {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input input {
+    font-size: large;
+    color: rgb(100, 100, 100);
+    border: rgb(232, 232, 232) solid 2px;
+    padding-left: 20px;
+    height: 60px;
+    width: 450px;
+}
+
+.connect2 {
+    background-color: #CD3532;
+    color:white;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    border: #0E303C;
+    border-radius: 10px;
+    width: 480px;
+    height: 60px;
+    margin-top: 5%;
+}
+
+.events {
+    color:white;
+}
+
+.testmonial {
+    background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162781864172466296/testimonial.jpg?ex=653d2fff&is=652abaff&hm=edbcfc912d24e6a84009c6458647f3a7c04bc0110e667b0b0138f07b0dbaa304&);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+    margin-bottom: 0%;
+}
+
+.quotecss {    
+    color:white;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 5%;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+.quotecss,.namescss,.titlecss {
+	position: relative;
+	animation-duration: 10.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-name: anim-1;
+}
+
+@keyframes anim-1 {
+  0%, 10% { left: -20%; opacity: 0; }
+  10%, 90% {left: 0%; opacity: 1; }
+}
+
+
+
+
+.namescss {
+    color:white;
+    margin-left: 15%;
+    margin-right: 20%;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.titlecss {
+    color:rgb(180, 180, 180);
+    margin-left: 15%;
+    margin-right: 20%;
+    font-weight: normal;
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+}
+
+.statementselect {
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.statementselect button {
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+}
+
+.buttonunpress {
+    color: white;
+    background-color: white;
+}
+
+.pressed {
+    color: #CD3532;
+    background-color: #CD3532;
 }
 
 /* small */
@@ -159,6 +284,11 @@ button:hover {
         padding: 0;
         align-items: center;
     }
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
     .display {
         display: none;
@@ -172,12 +302,14 @@ button:hover {
     }
 
     .toplogo {
-        margin-right: 30%;
+        position: relative;
+        margin-right: 50%;
+        right: 40%;
     }
 
     .menu {
-        position: absolute;
-        right: 20%;
+        position: relative;
+        left: 20%;
         top: 15%;
     }
     .homenav td {
@@ -221,6 +353,37 @@ button:hover {
         margin-right: 20%;
         margin-left: 20%;
         font-size: large;
+    }
+    .events {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .events img {
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+    .events .text {
+        padding-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: large;
+    }
+    .events button {
+        margin-left: 40%;
+    }
+    .connectbox {
+        padding-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-color: white;
+        width: 550px;
+        margin-left: 27.5%;
+        border-radius:  25px;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 }
 
@@ -286,5 +449,36 @@ button:hover {
         left: 15%;
         margin-right: 40%;
         font-size: large;
+    }
+    .events {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .events img {
+        margin-right: 20%;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    .events .text {
+        margin-right: 10%;
+        margin-left: 30%;
+        font-size: large;
+    }
+    .events button {
+        margin-left: 30%;
+    }
+    .connectbox {
+        padding-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-color: white;
+        width: 550px;
+        margin-left: 37.5%;
+        border-radius:  25px;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 }
