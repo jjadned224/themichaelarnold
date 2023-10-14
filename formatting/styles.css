@@ -1,10 +1,9 @@
 html {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #0E303C;
+    margin: 0;
 }
 
 a {
@@ -17,7 +16,7 @@ footer {
     color:white;
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     max-width: 100%;
@@ -43,6 +42,108 @@ footer {
 .navbot a {
     margin-right: 10%;
     color:white;
+}
+
+.darkblu {
+    background-color: #0E303C;
+}
+
+.top h1 {
+    color:#CD3532;
+    font-size: 48px;
+    text-align: left;
+    font-weight: bold;
+}
+
+p {
+    color:white;
+    line-height: 1.6;
+}
+
+.connect {
+    background-color: #CD3532;
+    color:white;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    border: #0E303C;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+}
+
+button:hover {
+    background-color: #EC3D3A;
+}
+
+.homenav a {
+    font-size: larger;
+}
+
+.lightred {
+    background-color: #CD3532;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.lightred h3 {
+    font-weight: normal;
+}
+
+.lightred iframe {
+    padding-top: 7%;
+}
+
+.lightgrey {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #B8BDC1;
+    text-align: center;
+}
+
+.links {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    column-gap: 50px;
+    row-gap: 50px;
+    align-items: center;  
+    justify-content: space-evenly;
+}
+
+.links img {
+    padding: 10px;
+    max-width: 80%;
+    height: auto;
+}
+
+.help {
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+}
+
+.help h3 {
+    font-weight: normal;
+}
+
+.anchors h1 {
+    color:white;
+}
+
+.anchors img {
+    padding-top: 5%;
+}
+
+.anchors p {
+    padding-bottom: 10%;
+}
+
+.connectprompt {
+    background-image: url();
 }
 
 /* small */
@@ -88,6 +189,39 @@ footer {
     td:hover {
         background-color: rgb(195, 194, 194);
     }
+    .anchors {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: top;
+        justify-content: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .anchors div {
+     text-align: center;
+    }
+
+    .anchors p {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .top {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .top img {
+        position: relative;
+        padding-top: 2%;
+        padding-bottom: 20%;
+    }
+    .top .text {
+        position: relative;
+        margin-right: 20%;
+        margin-left: 20%;
+        font-size: large;
+    }
 }
 
 /* large */
@@ -105,7 +239,7 @@ footer {
     }
 
     .toplogo {
-        margin-right: 15%;
+        margin-right: 10%;
     }
 
     .homenav td {
@@ -123,4 +257,34 @@ footer {
     }
 
     a:hover {color:grey;}
+
+    .anchors {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: top;
+        justify-content: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .anchors div {
+        width: 30%;
+    }
+    .top {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .top img {
+        position: relative;
+        right: 50%;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    .top .text {
+        position: relative;
+        left: 15%;
+        margin-right: 40%;
+        font-size: large;
+    }
 }

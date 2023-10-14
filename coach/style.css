@@ -17,7 +17,7 @@ footer {
     color:white;
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     max-width: 100%;
