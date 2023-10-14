@@ -20,7 +20,6 @@ footer {
     bottom: 0;
     width: 100%;
     max-width: 100%;
-
     padding-bottom: 3%;
 }
 .footcontent {
@@ -76,10 +75,6 @@ p {
 
 button:hover {
     background-color: #EC3D3A;
-}
-
-.homenav a {
-    font-size: larger;
 }
 
 .lightred {
@@ -302,9 +297,8 @@ button:hover {
     }
 
     .toplogo {
-        position: relative;
-        margin-right: 50%;
-        right: 40%;
+        margin-right: 100%;
+        margin-left: -50%;
     }
 
     .menu {
@@ -402,7 +396,7 @@ button:hover {
     }
 
     .toplogo {
-        margin-right: 10%;
+        margin-right: 200px;
     }
 
     .homenav td {
@@ -413,6 +407,7 @@ button:hover {
 
     .navmain {
         padding-right: 20%;
+        font-size: large;
     }
 
     .menu {
