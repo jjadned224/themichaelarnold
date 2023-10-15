@@ -122,6 +122,10 @@ footer a {
     margin-top: 5%;
 }
 
+button:hover {
+    background-color: #EC3D3A;
+}
+
 /* small */
 @media screen and (max-width : 1400px) {
     .topstyle {
