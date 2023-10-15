@@ -261,6 +261,19 @@ button:hover {
     width: 80%;
     height: 60px;
 }
+.container {
+    margin-left: 12%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containertrain {
+    margin-right: 3%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 /* large */
@@ -310,6 +323,7 @@ button:hover {
             margin-top: 5%;
         width: 160%;
         height: 60px;
+        margin-left: -20%;
     }
     .textdiv3 {
         margin-left: 3%;
@@ -328,5 +342,17 @@ button:hover {
         margin-top: 5%;
     width: 120%;
     height: 60px;
+}
+.container {
+    margin-left: 12%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.containertrain {
+    margin-left: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 }

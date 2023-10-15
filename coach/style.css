@@ -29,17 +29,6 @@ a {
     text-decoration: none;
 }
 
-footer {
-    background-color: #272D34;
-    color:white;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    max-width: 100%;
-    padding-bottom: 3%;
-}
 .footcontent {
     margin-left: 10%;
     align-items: center;
@@ -60,18 +49,6 @@ footer {
     margin-right: 10%;
     color:white;
 }
-
-.darkblu {
-    background-color: #0E303C;
-    color:white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-size: 20px;
-}
-
 
 .container {
     margin-left: 20%; 
@@ -144,6 +121,28 @@ button:hover {
     td:hover {
         background-color: rgb(195, 194, 194);
     }
+    footer {
+        background-color: #272D34;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-bottom: 3%;
+    }
+    .darkblu {
+        background-color: #0E303C;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 15%;
+        font-size: 20px;
+    }
+    
 }
 
 /* large */
@@ -180,4 +179,26 @@ button:hover {
     }
 
     a:hover {color:grey;}
+    footer {
+        background-color: #272D34;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-bottom: 3%;
+    }
+    .darkblu {
+        background-color: #0E303C;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 20px;
+    }
+    
 }
