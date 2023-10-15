@@ -126,7 +126,7 @@ button:hover {
         color:white;
         display: flex;
         flex-direction: column;
-        position: fixed;
+        position: relative;
         bottom: 0;
         width: 100%;
         max-width: 100%;
@@ -139,7 +139,7 @@ button:hover {
         flex-direction: column;
         justify-content: center;
         padding-top: 5%;
-        padding-bottom: 15%;
+        padding-bottom: 30%;
         font-size: 20px;
     }
     
