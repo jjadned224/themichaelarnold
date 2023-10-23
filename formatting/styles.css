@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+.hide {
+    display: none;
+}
+
 footer {
     background-color: #272D34;
     color:white;

@@ -22,9 +22,9 @@ const showEmailResult = async (e) => {
     const result = document.getElementById("result");
     let response = await getEmailResult();
     if (response.status == 200) {
-      result.innerHTML = "Email Successfully Sent";
+      result.innerHTML = "Information Successfully Sent";
     } else {
-      result.innerHTML = "Sorry, your email was not sent.";
+      result.innerHTML = "Sorry, your information was not sent.";
     }
   };
   
@@ -49,6 +49,6 @@ const showEmailResult = async (e) => {
     } catch (error) {
       console.log(error);
       document.getElementById("result").innerHTML =
-        "Sorry your email couldn't be sent";
+        "Sorry your information couldn't be sent";
     }
   };

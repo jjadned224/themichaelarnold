@@ -98,12 +98,6 @@ footer a {
     color: black;
 }
 
-.connectbox a {
-    color: #D75E5B;
-}
-
-a:hover {color:grey;}
-
 .input {
     padding-top: 5%;
     display: flex;
@@ -136,6 +130,31 @@ a:hover {color:grey;}
 button:hover {
     background-color: #EC3D3A;
 }
+
+.connectbox a {
+    color: #D75E5B;
+    text-decoration: none;
+}
+
+select {
+    background-color: #CD3532;
+    color:white;
+    font-size: large;
+    border-radius: 100px;
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    align-items: center;
+    border:none;
+    margin-left: 20%;
+}
+
+option:hover {
+    background-color: #EC3D3A;
+}
+
+a:hover {color:grey;}
 
 /* small */
 @media screen and (max-width : 1400px) {

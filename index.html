@@ -105,20 +105,22 @@
             </div>
         </div>
 
-        <div class="connectprompt">
+        <form id="contact-form" class="connectprompt" action="https://api.web3forms.com/submit" method="POST">
             <div class="connectflex">
             <div class="connectbox">
                 <h1>Connect with Michael</h1>
                 <p>Michael would love to connect with you!</p>
+                <input type="hidden" name="access_key" value="32bea1e2-9117-46cf-83ed-043bb9a43c43">
                 <div class="input">
-                <input type="text" placeholder="Full Name">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Comments">
+                <input type="text" placeholder="Full Name" name="name" required>
+                <input type="email" placeholder="Email" name="email" required>
+                <input type="text" placeholder="Comments" name="comments" required>
                 </div>
-                <button class="connect2" id="submitconnect">Submit</button>
+                <button type="submit" class="connect2" id="submitconnect">Submit</button>
+                <p id="result"></p>
             </div>
         </div>
-        </div>
+    </form>
 
         <div class="darkblu">
             <div class="events">
