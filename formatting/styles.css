@@ -377,8 +377,10 @@ button:hover {
         margin-right: 20%;
         font-size: large;
     }
-    .events button {
-        margin-left: 40%;
+    .contain {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
     .connectbox {
         padding-bottom: 2%;

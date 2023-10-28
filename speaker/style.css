@@ -93,6 +93,7 @@ li {
 
 .container {
     margin-left: 12%; 
+    margin-right: 12%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -191,8 +192,6 @@ li {
         background-color: rgb(195, 194, 194);
     }
     .book {
-        position: relative;
-        right: 50%;
         width: 100%;
         height: 60px;
     }
@@ -243,12 +242,6 @@ li {
     }
 
     a:hover {color:grey;}
-    .book {
-        position: relative;
-        right: 150%;
-        width: 250%;
-        height: 60px;
-    }
     .imgs {
         padding-top: 5%;
         display: flex;
@@ -259,5 +252,9 @@ li {
     .imgs img {
         height: 90%;
         width: 90%;
+    }
+    .book {
+        width: 100%;
+        height: 60px;
     }
 }
