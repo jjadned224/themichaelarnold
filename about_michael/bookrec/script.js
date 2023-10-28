@@ -31,12 +31,12 @@ const getBooks = async () => {
     let books = await getBooks();
     let BookList = document.getElementById("book-lists");
   
-    books.forEach((band) => {
-      BookList.append(getBookItem(band));
+    books.forEach((book) => {
+      BookList.append(getBookItem(book));
     });
   };
 
-  const getBookItem = (band) => {
+  const getBookItem = (book) => {
     let title = document.createElement("div");
     let h1 = document.createElement("h1");
     h1.innerText = book.name;
@@ -48,7 +48,7 @@ const getBooks = async () => {
     let row = document.createElement("div");
 
     let img = document.createElement("img");
-    img.src = band.img;
+    img.src = book.img;
     section.append(img);
 
     let ul = document.createElement("ul");
