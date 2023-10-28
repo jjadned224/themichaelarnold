@@ -1,0 +1,39 @@
+[
+    {
+      "name":"How to Win Friends and Influence People",
+      "Author": "Dale Carnegie",
+      "Published": "1936",
+      "genres":["Self-help"],
+      "page": "291 pages",
+      "description":"How to Win Friends and Influence People is a 1936 self-help book written by Dale Carnegie. Over 30 million copies have been sold worldwide, making it one of the best-selling books of all time. Carnegie had been conducting business education courses in New York since 1912.",
+      "img":"./book-img/Howtowinfriends.jpg"
+    },
+    {
+      "name":"The Storyteller: Tales of Life and Music",
+      "Author": "Dave Grohl",
+      "Published": "2021",
+      "genres":["Autobiography"],
+      "page": "288 pages",
+      "description":"So, I've written a book. Having entertained the idea for years, and even offered a few questionable opportunities (It's a piece of cake! Just do 4 hours of interviews, find someone else to write it, put your face on the cover, and voila!) I have decided to write these stories just as I have always done, in my own hand.",
+      "img":"./book-img/storyteller.jpg"
+    },
+    {
+      "name":"Ninetenn Eighty-Four",
+      "Author": "George Orwell",
+      "Published": "1949",
+      "genres":[" Science Fiction"," Dystopian Fiction"],
+      "page": "328 pages",
+      "description":"Nineteen Eighty-Four is a dystopian novel and cautionary tale by English writer George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime.",
+      "img":"./book-img/1984.jpg"
+    },
+    {
+      "name":"Fahrenheit 451",
+      "Author": "Ray Bradbury",
+      "Published": "1953",
+      "genres":[" Science Fiction"," Dystopian Fiction"],
+      "page": "158 pages",
+      "description":"Fahrenheit 451 is a 1953 dystopian novel by American writer Ray Bradbury. It presents an American society where books have been personified and outlawed and 'firemen' burn any that are found.",
+      "img":"./book-img/451.jpg"
+    }
+  ]
+  

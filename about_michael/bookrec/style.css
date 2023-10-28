@@ -3,12 +3,10 @@ html {
 }
 
 body {
-    background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162850723546013837/aboutmichael.jpg?ex=653d7021&is=652afb21&hm=a56471650e228c6618d8fa93de10f9894b3dc0ffe980ebca27e709d9e47b1e73&);
+    background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1167868991126118431/pexels-ivo-rainha-1290141.jpg?ex=654fb1c1&is=653d3cc1&hm=0e0f092d61bd723f58638d0bc9024d74b5010e5d51bac8f36aef831fdf2a3a3c&);
     background-attachment: fixed;
-    background-position: bottom 10px;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     overflow: auto;
     margin: 0;
 }
@@ -22,8 +20,8 @@ a {
     display: flex;
     flex-direction: column;
     color: white;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin-right: 60%;
     margin-left: 15%;
 }
@@ -58,10 +56,6 @@ a {
     padding-bottom: 10%;
 }
 
-button:hover {
-    background-color: #EC3D3A;
-}
-
 .darkblu p {
     margin-left: 20%;
     margin-right: 20%;
@@ -69,18 +63,58 @@ button:hover {
     font-size: 20px;
 }
 
-.connect {
-    background-color: #CD3532;
-    color:white;
-    font-size: large;
-    font-weight: bolder;
-    text-align: center;
+
+.flex {
+    background-color: rgb(110, 232, 232);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    text-align: left;
+    max-width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.rower {
+    display: flex;
     align-items: center;
-    border: #0E303C;
-    border-radius: 10px;
-    width: 480px;
-    height: 60px;
-    margin-top: 5%;
+    flex-direction: row;
+    background-color: rgb(153, 153, 242);
+    border-radius: 20px;
+    transition: transform .5s;
+}
+
+
+.flex img {
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    transition: transform .5s;
+}
+
+.flex ul {
+    list-style-type: none;
+    transition: transform .5s;
+}
+
+.flex li {
+    padding-top: 10px;
+    text-wrap: balance;
+    text-overflow: ellipsis;
+    
+}
+.rower:hover > img {
+    transform: scale(1.5);
+    border: solid 10px rgb(153, 153, 242);
+}
+
+.rower:hover > ul {
+    transform: translate(50px,0px)
+}
+
+.rower:hover ul {
+    margin-right: 10%;
 }
 
 /* small */
