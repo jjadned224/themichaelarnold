@@ -5,8 +5,10 @@ html {
 body {
     background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1167868991126118431/pexels-ivo-rainha-1290141.jpg?ex=654fb1c1&is=653d3cc1&hm=0e0f092d61bd723f58638d0bc9024d74b5010e5d51bac8f36aef831fdf2a3a3c&);
     background-attachment: fixed;
+    background-position: bottom 10px;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     overflow: auto;
     margin: 0;
 }
@@ -65,7 +67,6 @@ a {
 
 
 .flex {
-    background-color: rgb(110, 232, 232);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -74,13 +75,14 @@ a {
     max-width: 100%;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 10%;
 }
 
 .rower {
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: rgb(153, 153, 242);
+    background-color: #272D34;
     border-radius: 20px;
     transition: transform .5s;
 }
@@ -106,7 +108,6 @@ a {
 }
 .rower:hover > img {
     transform: scale(1.5);
-    border: solid 10px rgb(153, 153, 242);
 }
 
 .rower:hover > ul {
@@ -115,6 +116,10 @@ a {
 
 .rower:hover ul {
     margin-right: 10%;
+}
+
+.flex h1 {
+    text-align: center;
 }
 
 /* small */
@@ -171,7 +176,7 @@ a {
         color:white;
         display: flex;
         flex-direction: column;
-        position: relative;
+        position: absolute;
         bottom: 0;
         width: 100%;
         max-width: 100%;
@@ -227,7 +232,7 @@ a {
         color:white;
         display: flex;
         flex-direction: column;
-        position: relative;
+        position: absolute;
         bottom: 0;
         width: 100%;
         max-width: 100%;
@@ -235,7 +240,6 @@ a {
     }
     .darkblu {
         background-color: #0E303C;
-        color:white;
         display: flex;
         flex-direction: column;
         justify-content: center;
