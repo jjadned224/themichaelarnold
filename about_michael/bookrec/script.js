@@ -29,7 +29,7 @@ const getBooks = async () => {
   
   const showBooks = async () => {
     let books = await getBooks();
-    let BookList = document.getElementById("band-lists");
+    let BookList = document.getElementById("book-lists");
   
     books.forEach((book) => {
       BookList.append(getBookItem(book));

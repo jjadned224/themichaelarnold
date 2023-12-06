@@ -9,31 +9,40 @@
       "img":"./book-img/Howtowinfriends.jpg"
     },
     {
-      "name":"The Storyteller: Tales of Life and Music",
-      "Author": "Dave Grohl",
-      "Published": "2021",
-      "genres":["Autobiography"],
-      "page": "288 pages",
-      "description":"So, I've written a book. Having entertained the idea for years, and even offered a few questionable opportunities (It's a piece of cake! Just do 4 hours of interviews, find someone else to write it, put your face on the cover, and voila!) I have decided to write these stories just as I have always done, in my own hand.",
-      "img":"./book-img/storyteller.jpg"
+      "name":"Made to Stick: Why Some Ideas Survive and Others Die",
+      "Author": "Chip Heath and Dan Heath",
+      "Published": "2007",
+      "genres":["Personal development"],
+      "page": "291 pages",
+      "description":"Made to Stick: Why Some Ideas Survive and Others Die is a book by brothers Chip and Dan Heath published by Random House on January 2, 2007. The book continues the idea of 'stickiness' popularized by Malcolm Gladwell in The Tipping Point, seeking to explain what makes an idea or concept memorable or interesting.",
+      "img":"./book-img/M2S.jpg"
     },
     {
-      "name":"Ninetenn Eighty-Four",
-      "Author": "George Orwell",
-      "Published": "1949",
-      "genres":[" Science Fiction"," Dystopian Fiction"],
-      "page": "328 pages",
-      "description":"Nineteen Eighty-Four is a dystopian novel and cautionary tale by English writer George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime.",
-      "img":"./book-img/1984.jpg"
+      "name":"The Four Agreements: A Practical Guide to Personal Freedom",
+      "Author": "Don Miguel Ruiz",
+      "Published": "1997",
+      "genres":["Self-help"],
+      "page": "160 pages",
+      "description":"The Four Agreements: A Practical Guide to Personal Freedom is a self-help book by the author Don Miguel Ruiz. The book outlines a code of conduct based on ancient Toltec wisdom - advocating freedom from self-limiting beliefs which bring suffering and limitation to one's life.",
+      "img":"./book-img/4Agree.jpg"
     },
     {
-      "name":"Fahrenheit 451",
-      "Author": "Ray Bradbury",
-      "Published": "1953",
+      "name":"Whoever Tells the Best Story Wins",
+      "Author": "Annette Simmons",
+      "Published": "2007",
+      "genres":["Communication"],
+      "page": "226 pages",
+      "description":"Discover how the right story told at the right time has the power to persuade, promote empathy, and provoke action.A story explains who you are, what you want, and why it matters--better than any other communication tool in your arsenal.",
+      "img":"./book-img/BestStory.jpg"
+    },
+    {
+      "name":"Triggers: Creating Behavior That Lasts",
+      "Author": "Mark Reiter and Marshall Goldsmith",
+      "Published": "2015",
       "genres":[" Science Fiction"," Dystopian Fiction"],
-      "page": "158 pages",
-      "description":"Fahrenheit 451 is a 1953 dystopian novel by American writer Ray Bradbury. It presents an American society where books have been personified and outlawed and 'firemen' burn any that are found.",
-      "img":"./book-img/451.jpg"
+      "page": "272 pages",
+      "description":"Executive coach and psychologist Marshall Goldsmith discusses the emotional triggers that set off a reaction or a behavior in us that often works to our detriment. Do you find that at times you suddenly become defensive or enraged by an idle comment from a colleague?",
+      "img":"./book-img/Triggers.jpg"
     }
   ]
   
