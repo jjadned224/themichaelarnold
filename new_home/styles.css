@@ -396,6 +396,10 @@ button:hover {
         border: 0;
         padding: 0;
         align-items: center;
+        color: black;
+    }
+    .topstyle a {
+        color: black;
     }
     .topnav {
         display: flex;
@@ -500,6 +504,14 @@ button:hover {
         padding-left: 2%;
         padding-right: 2%;
     }
+    .demo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .demo img{
+        width: 75%;
+    }
 }
 
 /* large */
@@ -598,5 +610,10 @@ button:hover {
         padding-left: 2%;
         padding-right: 2%;
         justify-content: center;
+    }
+    .demo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
