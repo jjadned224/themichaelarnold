@@ -2,17 +2,7 @@ html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
 }
 
-body {
-    background-image: url(https://media.discordapp.net/attachments/1009293272801361982/1188741989135552522/tedx.webp?ex=659ba13f&is=65892c3f&hm=6efb693b03db50ba714bced61d0782ebb51a295ab3612489791b2f3472dc7abe&=&format=webp&width=1440&height=643);
-    background-attachment: fixed;
-    background-position: bottom 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: auto;
-    margin: 0;
-    backdrop-filter: brightness(60%);
-}
+
 
 a {
     color:white;
@@ -168,30 +158,7 @@ button:hover {
     text-align: center;
 }
 
-.background2 {
-    margin-top: 200px;
-    background-image: url(https://media.discordapp.net/attachments/1009293272801361982/1188753660264591380/Background2.webp?ex=659bac1e&is=6589371e&hm=2630ae64ba1ca7a823c8e149c15f84f7664a9ec1de6e157a64dfb6552ff010c4&=&format=webp&width=1440&height=414);
-    background-attachment: fixed;
-    background-position: bottom 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: auto;
-    margin: 0;
-    backdrop-filter: brightness(60%);
-}
 
-.background3 {
-    margin-top: 200px;
-    background-image: url(../images/Background3v2.jpg);
-    background-attachment: fixed;
-    background-position: bottom 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: auto;
-    margin: 0;
-}
 
 
 
@@ -251,15 +218,7 @@ button:hover {
     padding-bottom: 10%;
 }
 
-.connectprompt {
-    background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162763942863585352/connect.jpg?ex=653d1f4f&is=652aaa4f&hm=0bc454658ce01798f8af744d3c08d8cd33339e29a09164765c3057c7394714dd&);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: auto;
-}
+
 
 .connectflex {
     display: flex;
@@ -304,16 +263,7 @@ button:hover {
     color:white;
 }
 
-.testmonial {
-    background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162781864172466296/testimonial.jpg?ex=653d2fff&is=652abaff&hm=edbcfc912d24e6a84009c6458647f3a7c04bc0110e667b0b0138f07b0dbaa304&);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: auto;
-    margin-bottom: 0%;
-}
+
 
 .quotecss {    
     color:white;
@@ -406,7 +356,12 @@ button:hover {
         flex-direction: row;
         align-items: center;
     }
-
+    .types2 {
+        text-align: center; 
+    }
+    .demo {
+        padding-bottom: 5%;
+    }
     .display {
         display: none;
     }
@@ -512,6 +467,65 @@ button:hover {
     .demo img{
         width: 75%;
     }
+    .connectprompt {
+        background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162763942863585352/connect.jpg?ex=653d1f4f&is=652aaa4f&hm=0bc454658ce01798f8af744d3c08d8cd33339e29a09164765c3057c7394714dd&);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        background-size: fit-content;
+    }
+    .testmonial {
+        background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162781864172466296/testimonial.jpg?ex=653d2fff&is=652abaff&hm=edbcfc912d24e6a84009c6458647f3a7c04bc0110e667b0b0138f07b0dbaa304&);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        margin-bottom: 0%;
+        background-size: fit-content;
+    }
+    body {
+        background-image: url(https://media.discordapp.net/attachments/1009293272801361982/1188741989135552522/tedx.webp?ex=659ba13f&is=65892c3f&hm=6efb693b03db50ba714bced61d0782ebb51a295ab3612489791b2f3472dc7abe&=&format=webp&width=1440&height=643);
+        background-attachment: fixed;
+        background-position: bottom 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        margin: 0;
+        backdrop-filter: brightness(60%);
+        background-size: fit-content;
+    }
+    .background2 {
+        margin-top: 200px;
+        background-image: url(https://media.discordapp.net/attachments/1009293272801361982/1188753660264591380/Background2.webp?ex=659bac1e&is=6589371e&hm=2630ae64ba1ca7a823c8e149c15f84f7664a9ec1de6e157a64dfb6552ff010c4&=&format=webp&width=1440&height=414);
+        background-attachment: fixed;
+        background-position: bottom 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        margin: 0;
+        backdrop-filter: brightness(60%);
+        background-size: fit-content;
+    }
+    
+    .background3 {
+        margin-top: 200px;
+        background-image: url(../images/Background3v2.jpg);
+        background-attachment: fixed;
+        background-position: bottom 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        margin: 0;
+        background-size: fit-content;
+    }
 }
 
 /* large */
@@ -526,11 +540,15 @@ button:hover {
         padding: 0;
         align-items: center;
     }
-
+    .hidedarkblue {
+        display: none;
+    }
     .toplogo {
         margin-right: 300px;
     }
-
+    .types2 {
+        text-align: left;
+    }
     .homenav td {
         padding-left: 30px;
         white-space: nowrap;
@@ -615,5 +633,59 @@ button:hover {
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+    .connectprompt {
+        background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162763942863585352/connect.jpg?ex=653d1f4f&is=652aaa4f&hm=0bc454658ce01798f8af744d3c08d8cd33339e29a09164765c3057c7394714dd&);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+    }
+    .testmonial {
+        background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162781864172466296/testimonial.jpg?ex=653d2fff&is=652abaff&hm=edbcfc912d24e6a84009c6458647f3a7c04bc0110e667b0b0138f07b0dbaa304&);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        margin-bottom: 0%;
+    }
+    body {
+        background-image: url(https://media.discordapp.net/attachments/1009293272801361982/1188741989135552522/tedx.webp?ex=659ba13f&is=65892c3f&hm=6efb693b03db50ba714bced61d0782ebb51a295ab3612489791b2f3472dc7abe&=&format=webp&width=1440&height=643);
+        background-attachment: fixed;
+        background-position: bottom 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        margin: 0;
+        backdrop-filter: brightness(60%);
+    }
+    .background2 {
+        margin-top: 200px;
+        background-image: url(https://media.discordapp.net/attachments/1009293272801361982/1188753660264591380/Background2.webp?ex=659bac1e&is=6589371e&hm=2630ae64ba1ca7a823c8e149c15f84f7664a9ec1de6e157a64dfb6552ff010c4&=&format=webp&width=1440&height=414);
+        background-attachment: fixed;
+        background-position: bottom 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        margin: 0;
+        backdrop-filter: brightness(60%);
+    }
+    
+    .background3 {
+        margin-top: 200px;
+        background-image: url(../images/Background3v2.jpg);
+        background-attachment: fixed;
+        background-position: bottom 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        margin: 0;
     }
 }
