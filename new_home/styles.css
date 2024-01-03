@@ -120,6 +120,62 @@ button:hover {
     color: #EC3D3A;
 }
 
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    text-align: left;
+    max-width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+
+.rower {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #272D34;
+    border-radius: 20px;
+    transition: transform .5s;
+}
+
+
+.flex img {
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    transition: transform .5s;
+}
+
+.flex ul {
+    list-style-type: none;
+    transition: transform .5s;
+}
+
+.flex li {
+    padding-top: 10px;
+    text-wrap: balance;
+    text-overflow: ellipsis;
+    
+}
+.rower:hover > img {
+    transform: scale(1.5);
+}
+
+.rower:hover > ul {
+    transform: translate(50px,0px)
+}
+
+.rower:hover ul {
+    margin-right: 10%;
+}
+
+.flex h1 {
+    text-align: center;
+}
+
 .background2 {
     margin-top: 200px;
     background-image: url(https://media.discordapp.net/attachments/1009293272801361982/1188753660264591380/Background2.webp?ex=659bac1e&is=6589371e&hm=2630ae64ba1ca7a823c8e149c15f84f7664a9ec1de6e157a64dfb6552ff010c4&=&format=webp&width=1440&height=414);
@@ -132,6 +188,7 @@ button:hover {
     margin: 0;
     backdrop-filter: brightness(60%);
 }
+
 
 .text2 {
     color: #CD3532;
@@ -477,14 +534,15 @@ button:hover {
     .anchors {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         align-items: top;
         justify-content: center;
         padding-left: 5%;
         padding-right: 5%;
     }
     .anchors div {
-        width: 30%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 320px;
     }
     .top {
         display:flex;
