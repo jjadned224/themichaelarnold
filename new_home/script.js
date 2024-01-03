@@ -153,35 +153,39 @@ const showBooks = async () => {
 
 const getBookItem = (book) => {
   let title = document.createElement("div");
-  let h1 = document.createElement("h1");
-  h1.innerText = book.name;
-  title.append(h1);
+  title.style.marginBottom="10%";
+  let br = document.createElement("br");
+  title.append(br);
 
   let section = document.createElement("section");
   section.classList.add("rower");
+
   
   let row = document.createElement("div");
+  row.style.width="fit-content";
 
-  let img = document.createElement("img");
-  img.src = book.img;
-  section.append(img);
+  
 
   let ul = document.createElement("ul");
-  
+  ul.style.paddingRight="50px";
   section.append(ul);
-  ul.append(getLi(`Author: ${book.Author}`));
-  ul.append(getLi(`Published: ${book.Published}`));
-  ul.append(getLi(`Genres: ${book.genres}`));
-  ul.append(getLi(`Page Count: ${book.page}`));
-  ul.append(getLi(`Description: ${book.description}`));
+  ul.append(getLi(`${book.description}`));
+  ul.append(getLi(`${book.author}`, 1));
+  let img = document.createElement("img");
   
+  img.src = book.img;
+  section.append(img);
   row.appendChild(title);
   row.appendChild(section);
   return row;
 };
 
-const getLi = (data) => {
+const getLi = (data, x) => {
   const li = document.createElement("li");
   li.textContent = data;
+  if (x==1){
+    li.style.color="#CD3532";
+    li.style.textAlign="right";
+  }
   return li;
 };

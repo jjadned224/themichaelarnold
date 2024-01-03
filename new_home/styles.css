@@ -125,7 +125,7 @@ button:hover {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 30px;
-    text-align: left;
+    justify-content: center;
     max-width: 100%;
     margin-left: 15%;
     margin-right: 15%;
@@ -137,40 +137,32 @@ button:hover {
     align-items: center;
     flex-direction: row;
     background-color: #272D34;
-    border-radius: 20px;
+    border-radius: 61px;
     transition: transform .5s;
+    width: 100%;
+    text-align: center;
 }
 
 
 .flex img {
-    border-radius: 20px;
-    height: 300px;
-    width: 300px;
-    transition: transform .5s;
+    border-radius: 60px;
+    height: 200px;
+    width: 200px;
 }
 
 .flex ul {
     list-style-type: none;
     transition: transform .5s;
+    color:white;
+    font-weight: bold;
 }
 
 .flex li {
     padding-top: 10px;
     text-wrap: balance;
     text-overflow: ellipsis;
-    
-}
-.rower:hover > img {
-    transform: scale(1.5);
 }
 
-.rower:hover > ul {
-    transform: translate(50px,0px)
-}
-
-.rower:hover ul {
-    margin-right: 10%;
-}
 
 .flex h1 {
     text-align: center;
@@ -188,6 +180,19 @@ button:hover {
     margin: 0;
     backdrop-filter: brightness(60%);
 }
+
+.background3 {
+    margin-top: 200px;
+    background-image: url(../images/Background3v2.jpg);
+    background-attachment: fixed;
+    background-position: bottom 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+    margin: 0;
+}
+
 
 
 .text2 {
