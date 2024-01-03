@@ -335,7 +335,7 @@ button:hover {
 }
 
 /* small */
-@media screen and (max-width : 1400px) {
+@media screen and (max-width : 1400px) and (min-width : 500px) {
     .topstyle {
         background-color: white;
         display: flex;
@@ -524,7 +524,201 @@ button:hover {
         position: relative;
         overflow: auto;
         margin: 0;
-        background-size: fit-content;
+        background-size: 50%;
+    }
+}
+
+/* tiny */
+@media screen and (max-width : 500px) {
+    .topstyle {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+        justify-content: right;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        align-items: center;
+        color: black;
+    }
+    .topstyle a {
+        color: black;
+    }
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .types2 {
+        text-align: center; 
+    }
+    .demo {
+        padding-bottom: 5%;
+    }
+    .display {
+        display: none;
+    }
+
+    .icon {
+        background: white;
+        margin-right: 30%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .toplogo {
+        margin-right: 100%;
+        margin-left: -60%;
+    }
+
+    .menu {
+        position: relative;
+        left: 20%;
+        top: 15%;
+    }
+    .homenav td {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        white-space: nowrap;
+    }
+    td:hover {
+        background-color: rgb(195, 194, 194);
+    }
+    .anchors {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: top;
+        justify-content: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .anchors div {
+     text-align: center;
+    }
+
+    .anchors p {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .top {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .top img {
+        position: relative;
+        padding-top: 2%;
+        padding-bottom: 20%;
+    }
+    .top .text {
+        position: relative;
+        margin-right: 20%;
+        margin-left: 20%;
+        font-size: large;
+    }
+    .events {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .events img {
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+    .events .text {
+        padding-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: large;
+    }
+    .contain {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .connectbox {
+        padding-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-color: white;
+        width: fit-content;
+        border-radius:  25px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .demo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .demo img{
+        width: 75%;
+    }
+    .connectprompt {
+        background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162763942863585352/connect.jpg?ex=653d1f4f&is=652aaa4f&hm=0bc454658ce01798f8af744d3c08d8cd33339e29a09164765c3057c7394714dd&);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        background-size: 500px;
+    }
+    .testmonial {
+        background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162781864172466296/testimonial.jpg?ex=653d2fff&is=652abaff&hm=edbcfc912d24e6a84009c6458647f3a7c04bc0110e667b0b0138f07b0dbaa304&);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        margin-bottom: 0%;
+        background-size: 500px;
+    }
+    body {
+        background-image: url(https://media.discordapp.net/attachments/1009293272801361982/1188741989135552522/tedx.webp?ex=659ba13f&is=65892c3f&hm=6efb693b03db50ba714bced61d0782ebb51a295ab3612489791b2f3472dc7abe&=&format=webp&width=1440&height=643);
+        background-attachment: fixed;
+        background-position: bottom 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        margin: 0;
+        backdrop-filter: brightness(60%);
+        background-size: 500px;
+    }
+    .background2 {
+        margin-top: 200px;
+        background-image: url(https://media.discordapp.net/attachments/1009293272801361982/1188753660264591380/Background2.webp?ex=659bac1e&is=6589371e&hm=2630ae64ba1ca7a823c8e149c15f84f7664a9ec1de6e157a64dfb6552ff010c4&=&format=webp&width=1440&height=414);
+        background-attachment: fixed;
+        background-position: bottom 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        margin: 0;
+        backdrop-filter: brightness(60%);
+        background-size: 500px;
+    }
+    
+    .background3 {
+        margin-top: 200px;
+        background-image: url(../images/Background3v2.jpg);
+        background-attachment: fixed;
+        background-position: bottom 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: auto;
+        margin: 0;
+        background-size: 500px;
     }
 }
 
