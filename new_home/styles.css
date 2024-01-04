@@ -670,7 +670,7 @@ button:hover {
         background-size: cover;
         position: relative;
         overflow: auto;
-        background-size:  500px 500px;
+        background-size:  150% 150%;
         margin: 0;
         
     }
@@ -682,7 +682,7 @@ button:hover {
         background-size: cover;
         position: relative;
         overflow: auto;
-        background-size:  500px 500px;
+        background-size:  150% 150%;
         margin: 0;
     }
     body {
@@ -693,7 +693,7 @@ button:hover {
         background-size: cover;
         position: relative;
         overflow: auto;
-        background-size:  500px 500px;
+        background-size:  150% 150%;
         margin: 0;
     }
     .background2 {
@@ -705,7 +705,7 @@ button:hover {
         background-size: cover;
         position: relative;
         overflow: auto;
-        background-size:  500px 500px;
+        background-size:  150% 150%;
         margin: 0;
     }
     
@@ -718,7 +718,7 @@ button:hover {
         background-size: cover;
         position: relative;
         overflow: auto;
-        background-size:  500px 500px;
+        background-size:  150% 150%;
         margin: 0;
     }
 }
