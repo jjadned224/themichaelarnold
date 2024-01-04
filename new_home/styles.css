@@ -666,7 +666,7 @@ button:hover {
         background-attachment: fixed;
         background-position:center center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         position: relative;
         overflow: auto;
         background-size: max-content;
@@ -677,7 +677,7 @@ button:hover {
         background-attachment: fixed;
         background-position:center center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         position: relative;
         overflow: auto;
         margin-bottom: 0%;
@@ -688,7 +688,7 @@ button:hover {
         background-attachment: fixed;
         background-position:center center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         position: relative;
         overflow: auto;
         margin: 0;
@@ -701,7 +701,7 @@ button:hover {
         background-attachment: fixed;
         background-position:center center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         position: relative;
         overflow: auto;
         margin: 0;
@@ -718,7 +718,7 @@ button:hover {
         position: relative;
         overflow: auto;
         margin: 0;
-        background-size: max-content;
+        background-size: contain;
     }
 }
 
