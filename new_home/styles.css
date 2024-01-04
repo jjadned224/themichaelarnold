@@ -472,33 +472,36 @@ button:hover {
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        
         position: relative;
         overflow: auto;
-        background-size: fit-content;
+        background-image: cover;
+        background-size: contain;
     }
     .testmonial {
         background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162781864172466296/testimonial.jpg?ex=653d2fff&is=652abaff&hm=edbcfc912d24e6a84009c6458647f3a7c04bc0110e667b0b0138f07b0dbaa304&);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        
         position: relative;
         overflow: auto;
         margin-bottom: 0%;
-        background-size: fit-content;
+        background-image: cover;
+        background-size: contain;
     }
     body {
         background-image: url(https://media.discordapp.net/attachments/1009293272801361982/1188741989135552522/tedx.webp?ex=659ba13f&is=65892c3f&hm=6efb693b03db50ba714bced61d0782ebb51a295ab3612489791b2f3472dc7abe&=&format=webp&width=1440&height=643);
         background-attachment: fixed;
         background-position: bottom 100px;
         background-repeat: no-repeat;
-        background-size: cover;
+        
         position: relative;
         overflow: auto;
         margin: 0;
         backdrop-filter: brightness(60%);
-        background-size: fit-content;
+        background-image: cover;
+        background-size: contain;
     }
     .background2 {
         margin-top: 200px;
@@ -506,12 +509,13 @@ button:hover {
         background-attachment: fixed;
         background-position: bottom 100px;
         background-repeat: no-repeat;
-        background-size: cover;
+        
         position: relative;
         overflow: auto;
         margin: 0;
         backdrop-filter: brightness(60%);
-        background-size: fit-content;
+        background-image: cover;
+        background-size: contain;
     }
     
     .background3 {
@@ -520,11 +524,12 @@ button:hover {
         background-attachment: fixed;
         background-position: bottom 100px;
         background-repeat: no-repeat;
-        background-size: cover;
+        
         position: relative;
         overflow: auto;
         margin: 0;
-        background-size: 50%;
+        background-image: cover;
+        background-size: contain;
     }
 }
 
@@ -664,9 +669,9 @@ button:hover {
     .connectprompt {
         background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162763942863585352/connect.jpg?ex=653d1f4f&is=652aaa4f&hm=0bc454658ce01798f8af744d3c08d8cd33339e29a09164765c3057c7394714dd&);
         background-attachment: fixed;
-        background-position:center center;
+        background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         position: relative;
         overflow: auto;
         background-size: max-content;
@@ -677,7 +682,7 @@ button:hover {
         background-attachment: fixed;
         background-position:center center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         position: relative;
         overflow: auto;
         margin-bottom: 0%;
@@ -688,7 +693,7 @@ button:hover {
         background-attachment: fixed;
         background-position:center center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         position: relative;
         overflow: auto;
         margin: 0;
@@ -701,7 +706,7 @@ button:hover {
         background-attachment: fixed;
         background-position:center center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         position: relative;
         overflow: auto;
         margin: 0;
@@ -718,7 +723,7 @@ button:hover {
         position: relative;
         overflow: auto;
         margin: 0;
-        background-size: contain;
+        background-size: max-content;
     }
 }
 
