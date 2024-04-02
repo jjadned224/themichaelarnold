@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162826492997275799/teacher.jpg?ex=653d5990&is=652ae490&hm=c7631c368511c40e1fbb4d19ff8294242f8f46cfe74e5c611275ca640676cc34&);
+    background-image: url(../images/teacher.jpg);
     background-attachment: fixed;
     background-position: bottom 10px;
     background-repeat: no-repeat;

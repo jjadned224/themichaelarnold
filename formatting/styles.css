@@ -148,7 +148,7 @@ button:hover {
 }
 
 .connectprompt {
-    background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162763942863585352/connect.jpg?ex=653d1f4f&is=652aaa4f&hm=0bc454658ce01798f8af744d3c08d8cd33339e29a09164765c3057c7394714dd&);
+    background-image: url(../images/connect.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@ button:hover {
 }
 
 .testmonial {
-    background-image: url(https://cdn.discordapp.com/attachments/1009293272801361982/1162781864172466296/testimonial.jpg?ex=653d2fff&is=652abaff&hm=edbcfc912d24e6a84009c6458647f3a7c04bc0110e667b0b0138f07b0dbaa304&);
+    background-image: url(../images/testimonial.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
